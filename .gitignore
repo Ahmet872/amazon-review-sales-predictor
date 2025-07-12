@@ -1,0 +1,12 @@
+# Environment variables
+.env
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Model dosyaları (isteğe bağlı)
+models/
+
+# Output dosyaları
+output/
