@@ -5,7 +5,7 @@
 An end-to-end pipeline that scrapes Amazon product data and estimates product sales volume using machine learning.
 
 ---
-##Overview
+## Overview
 This repository provides an end-to-end, scalable pipeline for estimating Amazon product sales volume using machine learning and publicly available data. In e-commerce analytics, access to actual sales figures is often limited, but review counts serve as a reliable proxy for understanding demand trends. The project combines automated product data scraping, feature engineering, and a regression-based prediction model to enable several key functionalities.
 Users can dynamically search and extract Amazon product listings. Raw product metadata such as price, brand, and title are cleaned and structured for analysis. Informative features including text length and brand encoding are engineered. A LightGBM-based model predicts the volume of product reviews. Potential sales are approximated through a flexible multiplier logic applied to predicted review counts.
 The system architecture is designed for extensibility, allowing easy integration of new features or data sources. It supports both command line interface and an interactive web application, ensuring accessibility for users with varying technical backgrounds.
